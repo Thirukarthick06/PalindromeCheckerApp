@@ -30,4 +30,3 @@ public class PalindromeCheckerApp {
         System.out.println("Is Palindrome?: " + isPalindrome);
     }
 }
-

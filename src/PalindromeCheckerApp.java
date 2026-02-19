@@ -13,8 +13,8 @@ public class PalindromeCheckerApp {
         Stack<Character> stack = new Stack<>();
 
         for (char c : input.toCharArray()) {
-            queue.add(c);   // enqueue
-            stack.push(c);  // push
+            queue.add(c);
+            stack.push(c);
         }
 
         boolean isPalindrome = true;
